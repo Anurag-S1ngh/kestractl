@@ -127,6 +127,7 @@ jobs:
           private-key: ${{ secrets.GH_BOT_PRIVATE_KEY }}
           owner: kestra-io
           repositories: homebrew-tap
+          permission-contents: write
 
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v7
