@@ -43,7 +43,7 @@ curl -fsSL https://raw.githubusercontent.com/kestra-io/kestractl/main/install-sc
 brew install kestra-io/tap/kestractl
 ```
 
-The tap is updated automatically on every release, so `brew upgrade kestractl` keeps you on the latest version.
+The tap is updated automatically on every stable release, so `brew upgrade kestractl` keeps you on the latest version.
 
 ### or choose and download the proper binary for your OS/arch
 download the compressed or plain binary for your platform at https://github.com/kestra-io/kestractl/releases
